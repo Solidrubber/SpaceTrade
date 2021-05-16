@@ -18,8 +18,15 @@ cursor.execute(create_table)
 create_table = "CREATE TABLE IF NOT EXISTS solarsystems(id INTEGER PRIMARY KEY, name text, px int, py int)"
 cursor.execute(create_table)
 
+create_table = "CREATE TABLE IF NOT EXISTS planets(id INTEGER PRIMARY KEY, name text, px int, py int, solarsystemid INTEGER NOT NULL, FOREIGN KEY(solarsystemid) REFERENCES solarsystem(id))"
+cursor.execute(create_table)
+
 create_table = "CREATE TABLE IF NOT EXISTS ships(id INTEGER PRIMARY KEY, name text, price real)"
 cursor.execute(create_table)
+
+create_table = "CREATE TABLE IF NOT EXISTS moons(id INTEGER PRIMARY KEY, name text, amountRes real,planetid INTEGER NOT NULL, FOREIGN KEY(planetid) REFERENCES planet(id))"
+cursor.execute(create_table)
+
 
 
 
