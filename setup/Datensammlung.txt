@@ -1,0 +1,36 @@
+user:
+name
+token
+pw
+credits
+
+
+user_shiffe:
+userid: schiffid
+koord
+cargo
+
+
+shiff:
+id
+lager
+tank
+schild
+typ
+preis
+
+
+Sonnensysteme:
+id
+name
+system (posx, posy) zentrum ist immer die Sonne
+
+Besteht aus...
+
+planeten:
+id, name, (posx,posy) , ress
+monde:
+id, name, (posx,posy) , ress
+
+asterioden:
+id, name, (posx,posy) , ress
