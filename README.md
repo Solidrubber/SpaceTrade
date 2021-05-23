@@ -43,7 +43,7 @@ DNA N47°16' E11°23'
 
 
 # Technisches:
-Zur Ausführung der API auf dem eigenen Rechner müssen zuerst dieses erledigt sein:
+Zur Ausführung der API auf dem eigenen Rechner müssen zuerst diese Voraussetzungen erfüllt werden:
 
 python3 -m venv venv
 
