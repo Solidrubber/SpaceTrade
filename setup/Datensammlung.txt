@@ -34,3 +34,11 @@ id, name, (posx,posy) , ress
 
 asterioden:
 id, name, (posx,posy) , ress
+
+Märkte:
+Leben auf Planeten
+Haben Items
+
+Flugrouten
+shipid, start(koord), ziel(koord), startzeit, ankuftszeit
+
