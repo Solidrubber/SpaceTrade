@@ -46,11 +46,16 @@ DNA N47°16' E11°23'
 Zur Ausführung der API auf dem eigenen Rechner müssen zuerst dieses erledigt sein:
 
 python3 -m venv venv
+
 und danach 
+
 pip3 install -r requirements
+
 
 Dann kann der Server gestartet werden:
 
+
 uvicorn --host 0.0.0.0 app.main:app --reload
+
 
 Unter (DeineServerIP:8000/docs) werden die API aufgelistet. (Swagger) 
