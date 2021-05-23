@@ -39,3 +39,18 @@ Verbesserungen am Schiff lassen sich nur durch "Programmieraufgaben" erspielen. 
 
 Und last but not least: Hail to DNA, 20 Jahre ist es dieses Jahr her. Sinn des Leben, der Universums und Alles und so... ;)
 DNA N47°16' E11°23'
+
+
+
+Technisches:
+Zur Ausführung der API auf dem eigenen Rechner müssen zuerst dieses erledigt sein:
+
+python3 -m venv venv
+und danach 
+pip3 install -r requirements
+
+Dann kann der Server gestartet werden:
+
+uvicorn --host 0.0.0.0 app.main:app --reload
+
+Unter (DeineServerIP:8000/docs) werden die API aufgelistet. (Swagger) 
